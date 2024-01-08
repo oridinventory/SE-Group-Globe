@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to bottom, #215A60 0%, #324C4A 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#mapView { 
+    position: absolute;
+    height: 94%;
+    width: 100%; 
+}
+

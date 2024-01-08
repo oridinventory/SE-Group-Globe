@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #334c4a;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #334c4a;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-4 {
+        mask: url(#mask);
+      }
+    </style>
+    <filter id="luminosity-noclip" x="2.26" y="2.7" width="25.99" height="23.73" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="2.26" y="2.7" width="25.99" height="23.73" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <polygon points="7.94 8.39 5.89 20.6 18.96 20.74 28.26 3.2 7.94 8.39"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-4">
+    <circle class="cls-2" cx="14.13" cy="14.57" r="11.37"/>
+  </g>
+  <g>
+    <polygon class="cls-1" points="7.43 16.32 6.81 19.66 10.45 19.66 25.98 6.01 7.43 16.32"/>
+    <polygon class="cls-1" points="8.73 9.18 8.07 12.75 27.59 4.15 8.73 9.18"/>
+    <polygon class="cls-1" points="14.82 19.66 18.57 19.66 23.96 9.28 14.82 19.66"/>
+  </g>
+</svg>
